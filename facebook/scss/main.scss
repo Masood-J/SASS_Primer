@@ -1,0 +1,242 @@
+$primary-color:#e7ebeb;
+$secondary-color:#0961f1;
+$third-color:#38cc17;
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    background-color:$primary-color ;
+    .header{
+    margin-top: 35vh;
+    margin-left: 20vw;
+    margin-right: 12vw;
+    color:$secondary-color;
+    font-size:xx-large;
+    .header2{
+        margin-top: -5vh;
+        color:black;
+        font-size:large;
+        
+    }
+    
+  }
+ 
+  .credentials{
+    margin-top: 25vh;
+    margin-right: 39vw;
+    background-color: #fff;
+    border-radius: 13px;
+    border-style:solid;
+    border-color:  #c4cbc3;
+    padding: 55px 60px;
+    
+    .email{
+        margin-top: -20px;
+        border-radius: 10px;
+        padding:23px 90px;
+        border-color:  #c4cbc3;
+        border-width: 1px;
+
+        
+    }
+    
+    .password{
+        margin-top: 10px;
+        border-radius: 10px;
+        padding:22px 90px;
+        border-color:  #c4cbc3;
+        border-width: 1px;
+    }
+    .button1{
+        margin-top: 12px;
+        padding: 9px 152px;
+        background-color: $secondary-color;
+        border-radius: 7px;
+        color:#fff;
+        font-size:medium;
+        border-color: #fff;
+        
+    }
+    .pass-link{
+        margin-left: 7vw;
+    }
+    .button2{
+        margin-left: 4vw;
+        padding: 9px 35px;
+        background-color:$third-color;
+        border-radius: 5px;
+        color: #fff;
+        font-size: medium;
+        border-color: #fff;
+    }
+  }
+}
+
+body{
+    background-color: $primary-color;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+footer{
+    text-align: center;
+    margin-left: 27vw;
+}
+
+@media only screen and (max-width:1400px){
+    body{
+        margin-top: -34vh;
+        padding-top: 0;
+    }
+  .main {
+    flex-direction: column;
+    margin-bottom: 25vh;
+    .credentials {
+      margin-top: 5vh;
+      margin-left: 20vw;
+      margin-right: 40vw;
+      padding: 40px 20px;
+      
+     
+      border-color: #c4cbc3;
+    }
+  }
+}
+@media only screen and (max-width:900px){
+    body{
+        margin-top: -34vh;
+        padding-top: 0;
+    }
+  .main {
+    flex-direction: column;
+    margin-bottom: 25vh;
+    .credentials {
+      margin-top: 5vh;
+      margin-left: 15vw;
+      margin-right: 35vw;
+      padding: 40px 20px;
+      
+     
+      border-color: #c4cbc3;
+    }
+  }
+}
+@media only screen and (max-width:700px){
+    body{
+        margin-top: -34vh;
+        padding-top: 0;
+    }
+  .main {
+    flex-direction: column;
+    margin-bottom: 25vh;
+    .credentials {
+      margin-top: 5vh;
+      margin-left: 5vw;
+      margin-right: 20vw;
+      padding: 40px 20px;
+      
+     
+      border-color: #c4cbc3;
+    }
+  }
+}
+@media only screen and (max-width:500px){
+    body{
+        margin-top: -34vh;
+        padding-top: 0;
+    }
+  .main {
+    flex-direction: column;
+    margin-bottom: 25vh;
+    .credentials {
+      margin-top: 5vh;
+      margin-left: 5vw;
+      margin-right: 13vw;
+      padding: 40px 20px;
+      
+     
+      border-color: #c4cbc3;
+    }
+  }
+}
+@media only screen and (max-width:400px){
+    body{
+        margin-top: -34vh;
+        padding-top: 0;
+    }
+  .main {
+    flex-direction: column;
+    margin-bottom: 25vh;
+    .credentials {
+      margin-top: 5vh;
+      margin-left: 5vw;
+      margin-right: 0vw;
+      padding: 40px 0px;
+      
+     
+      border-color: #c4cbc3;
+    }
+  }
+}
+@media only screen and (max-width:300px){
+    body{
+        margin-top: -34vh;
+        padding-top: 0;
+    }
+  .main {
+
+    flex-direction: column;
+    margin-bottom: 25vh;
+    .header{
+    margin-top: 35vh;
+    margin-left: 5vw;
+    margin-right: 4vw;
+    color:$secondary-color;
+    font-size:xx-large;
+    .header2{
+        margin-top: -5vh;
+        color:black;
+        font-size:large;
+        
+    }
+  }
+    .credentials {
+      margin-top: 5vh;
+      margin-left: 5vw;
+      margin-right: 5vw;
+      padding: 40px 20px;
+      
+     
+      border-color: #c4cbc3;
+      .email{
+        margin-top: -20px;
+        border-radius: 10px;
+        padding:23px 10px;
+        border-color:  #c4cbc3;
+        border-width: 1px;
+
+        
+    }
+    .email:focus{
+      border-color: #4a78fd;
+    }
+      .password{
+        margin-top: 10px;
+        border-radius: 10px;
+        padding:22px 10px;
+        border-color:  #c4cbc3;
+        border-width: 1px;
+    }
+    .button1{
+        margin-top: 12px;
+        padding: 9px 75px;
+        background-color: $secondary-color;
+        border-radius: 7px;
+        color:#fff;
+        font-size:medium;
+        border-color: #fff;
+        
+    }
+    }
+  }
+}
