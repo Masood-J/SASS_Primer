@@ -1,212 +1,150 @@
 .main {
   display: flex;
   flex-direction: row;
-  background-color: #e7ebeb;
+  background-color: #F2F4F7;
+  margin-top: -105px;
+  margin-left: 280px;
+}
+.main .header-div {
+  margin-left: 200px;
+  padding-top: -55px;
 }
 .main .header {
-  margin-top: 35vh;
-  margin-left: 20vw;
-  margin-right: 12vw;
-  color: #0961f1;
-  font-size: xx-large;
+  margin-top: 290px;
+  margin-left: 80px;
+  margin-right: 200px;
+  color: #0866FF;
+  font-size: 390%;
+  font-weight: 950;
+  margin-bottom: 5px;
 }
-.main .header .header2 {
-  margin-top: -5vh;
+.main .header2 {
+  margin: 10px 25px 0 83px;
   color: black;
-  font-size: large;
+  font-size: x-large;
+  font-weight: 500;
+  padding: 0 0;
 }
-.main .credentials {
-  margin-top: 25vh;
-  margin-right: 39vw;
+.main .main-credentials .credentials {
+  margin-top: 220px;
+  margin-right: 450px;
+  margin-left: 0;
   background-color: #fff;
   border-radius: 13px;
   border-style: solid;
-  border-color: #c4cbc3;
-  padding: 55px 60px;
+  padding: 35px 15px 23px 15px;
+  border: 0.1px solid #b7c4b7;
+  max-width: 375px;
 }
-.main .credentials .email {
+.main .main-credentials .credentials .pass-link {
+  text-decoration: none;
+}
+.main .main-credentials .credentials .email {
   margin-top: -20px;
   border-radius: 10px;
-  padding: 23px 90px;
+  padding: 17px 15px;
   border-color: #c4cbc3;
   border-width: 1px;
+  width: 370px;
+  box-sizing: border-box;
 }
-.main .credentials .password {
+.main .main-credentials .credentials .email::placeholder {
+  font-size: larger;
+  opacity: 1;
+}
+.main .main-credentials .credentials .email:enabled {
+  border: 0.2px solid #b7c4b7;
+}
+.main .main-credentials .credentials .email:focus {
+  border: 2px solid #0866FF;
+  outline: none;
+}
+.main .main-credentials .credentials .password {
   margin-top: 10px;
   border-radius: 10px;
-  padding: 22px 90px;
+  padding: 16px 15px;
   border-color: #c4cbc3;
   border-width: 1px;
+  width: 370px;
+  box-sizing: border-box;
 }
-.main .credentials .button1 {
+.main .main-credentials .credentials .password::placeholder {
+  font-size: larger;
+}
+.main .main-credentials .credentials .password:enabled {
+  border: 0.2px solid #b7c4b7;
+}
+.main .main-credentials .credentials .password:focus {
+  border: 2px solid #0866FF;
+  outline: none;
+}
+.main .main-credentials .credentials .button1 {
   margin-top: 12px;
-  padding: 9px 152px;
-  background-color: #0961f1;
+  padding: 14px 50px;
+  width: 370px;
+  background-color: #0866FF;
   border-radius: 7px;
   color: #fff;
-  font-size: medium;
+  font-size: large;
+  font-weight: 800;
   border-color: #fff;
+  margin-bottom: 15px;
 }
-.main .credentials .pass-link {
-  margin-left: 7vw;
+.main .main-credentials .credentials .button1:hover {
+  background-color: #1877F2;
 }
-.main .credentials .button2 {
-  margin-left: 4vw;
-  padding: 9px 35px;
-  background-color: #38cc17;
+.main .main-credentials .credentials .pass-link {
+  margin-left: 120px;
+  font-size: small;
+}
+.main .main-credentials .credentials .pass-link:hover {
+  text-decoration: underline;
+}
+.main .main-credentials .credentials .button2 {
+  margin-left: 85px;
+  padding: 15px 20px;
+  background-color: #42B72A;
   border-radius: 5px;
   color: #fff;
   font-size: medium;
   border-color: #fff;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.main .main-credentials .credentials .button2:hover {
+  background-color: #36A420;
 }
 
 body {
-  background-color: #e7ebeb;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #F2F4F7;
+  margin-left: 0px;
 }
 
 footer {
-  text-align: center;
-  margin-left: 27vw;
+  margin-left: 35px;
 }
 
-@media only screen and (max-width: 1400px) {
-  body {
-    margin-top: -34vh;
-    padding-top: 0;
-  }
+hr {
+  margin-top: 20px;
+  border-width: 0.1px;
+}
+
+@media only screen and (max-width: 2000px) {
   .main {
-    flex-direction: column;
-    margin-bottom: 25vh;
-  }
-  .main .credentials {
-    margin-top: 5vh;
-    margin-left: 20vw;
-    margin-right: 40vw;
-    padding: 40px 20px;
-    border-color: #c4cbc3;
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F4F7;
+    margin-top: -105px;
+    margin-left: 5px;
   }
 }
-@media only screen and (max-width: 900px) {
-  body {
-    margin-top: -34vh;
-    padding-top: 0;
-  }
+@media only screen and (max-width: 600px) {
   .main {
-    flex-direction: column;
-    margin-bottom: 25vh;
-  }
-  .main .credentials {
-    margin-top: 5vh;
-    margin-left: 15vw;
-    margin-right: 35vw;
-    padding: 40px 20px;
-    border-color: #c4cbc3;
-  }
-}
-@media only screen and (max-width: 700px) {
-  body {
-    margin-top: -34vh;
-    padding-top: 0;
-  }
-  .main {
-    flex-direction: column;
-    margin-bottom: 25vh;
-  }
-  .main .credentials {
-    margin-top: 5vh;
-    margin-left: 5vw;
-    margin-right: 20vw;
-    padding: 40px 20px;
-    border-color: #c4cbc3;
-  }
-}
-@media only screen and (max-width: 500px) {
-  body {
-    margin-top: -34vh;
-    padding-top: 0;
-  }
-  .main {
-    flex-direction: column;
-    margin-bottom: 25vh;
-  }
-  .main .credentials {
-    margin-top: 5vh;
-    margin-left: 5vw;
-    margin-right: 13vw;
-    padding: 40px 20px;
-    border-color: #c4cbc3;
-  }
-}
-@media only screen and (max-width: 400px) {
-  body {
-    margin-top: -34vh;
-    padding-top: 0;
-  }
-  .main {
-    flex-direction: column;
-    margin-bottom: 25vh;
-  }
-  .main .credentials {
-    margin-top: 5vh;
-    margin-left: 5vw;
-    margin-right: 0vw;
-    padding: 40px 0px;
-    border-color: #c4cbc3;
-  }
-}
-@media only screen and (max-width: 300px) {
-  body {
-    margin-top: -34vh;
-    padding-top: 0;
-  }
-  .main {
-    flex-direction: column;
-    margin-bottom: 25vh;
-  }
-  .main .header {
-    margin-top: 35vh;
-    margin-left: 5vw;
-    margin-right: 4vw;
-    color: #0961f1;
-    font-size: xx-large;
-  }
-  .main .header .header2 {
-    margin-top: -5vh;
-    color: black;
-    font-size: large;
-  }
-  .main .credentials {
-    margin-top: 5vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    padding: 40px 20px;
-    border-color: #c4cbc3;
-  }
-  .main .credentials .email {
-    margin-top: -20px;
-    border-radius: 10px;
-    padding: 23px 10px;
-    border-color: #c4cbc3;
-    border-width: 1px;
-  }
-  .main .credentials .email:focus {
-    border-color: #4a78fd;
-  }
-  .main .credentials .password {
-    margin-top: 10px;
-    border-radius: 10px;
-    padding: 22px 10px;
-    border-color: #c4cbc3;
-    border-width: 1px;
-  }
-  .main .credentials .button1 {
-    margin-top: 12px;
-    padding: 9px 75px;
-    background-color: #0961f1;
-    border-radius: 7px;
-    color: #fff;
-    font-size: medium;
-    border-color: #fff;
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F4F7;
+    margin-top: -105px;
+    margin-left: 0;
   }
 }/*# sourceMappingURL=main.css.map */
