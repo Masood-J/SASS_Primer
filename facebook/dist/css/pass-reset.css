@@ -1,0 +1,147 @@
+.header-one {
+  display: flex;
+  background-color: #ffffff;
+  margin-bottom: 0;
+}
+.header-one h2 {
+  font-size: xx-large;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-left: 23px;
+}
+.header-one .email {
+  margin-left: 45vw;
+  padding: 12px 5px;
+  outline: none;
+  border-radius: 4px;
+  border-width: 0.5px;
+}
+.header-one .email::placeholder {
+  font-size: larger;
+  opacity: 1;
+}
+.header-one .email:focus {
+  border: 1px solid #0866FF;
+}
+.header-one .password {
+  margin-left: 5px;
+  padding: 12px 5px;
+  outline: none;
+  border-radius: 4px;
+  border-width: 0.5px;
+}
+.header-one .password::placeholder {
+  font-size: larger;
+  opacity: 1;
+}
+.header-one .password:focus {
+  border: 1px solid #0866FF;
+}
+.header-one .button1 {
+  margin-left: 5px;
+  padding: 10px 11px;
+  background-color: #1b74e4;
+  border-radius: 8px;
+  color: white;
+  outline: none;
+  border-color: #fff;
+  font-size: medium;
+  font-weight: 800;
+}
+.header-one .button1:hover {
+  background-color: #216fdb;
+}
+.header-one .pass-reset {
+  margin-left: 7px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #1b74e4;
+  font-size: medium;
+  font-weight: 800;
+}
+.header-one .pass-reset:hover {
+  text-decoration: underline;
+}
+
+.field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e9ebee;
+  padding: 180px 0;
+}
+.field .input-field {
+  margin-left: 33%;
+  border-radius: 7px;
+  background-color: #ffffff;
+  padding: 0 12px 30px 25px;
+}
+.field .input-field p {
+  margin-right: 25px;
+  max-width: 460px;
+  word-break: break-word;
+  margin-left: 0;
+  margin-right: auto;
+}
+.field .input-field .email1 {
+  width: 95%;
+  padding: 17px 3px;
+  border-radius: 4px;
+  outline: none;
+  border-width: 0.5px;
+  margin-bottom: 18px;
+}
+.field .input-field .email1::placeholder {
+  font-size: larger;
+  opacity: 1;
+}
+.field .input-field .email1:focus {
+  border: 2px solid black;
+  outline: none;
+}
+.field .input-field .cancel {
+  margin-top: 16px;
+  margin-left: 260px;
+  padding: 10px 22px;
+  background-color: #e4e6eb;
+  outline: none;
+  border-radius: 5px;
+  border-width: 0;
+  color: #555960;
+  font-size: medium;
+  font-weight: 800;
+}
+.field .input-field .search {
+  background-color: #1b74e4;
+  color: #fff;
+  padding: 10px 22px;
+  outline: none;
+  border-radius: 5px;
+  border-width: 0;
+  font-size: medium;
+  font-weight: 800;
+}
+.field .input-field .search:hover {
+  background-color: #216fdb;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+hr {
+  width: 100%;
+  border-width: 0.1px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .field {
+    padding-right: 500px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .field {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}/*# sourceMappingURL=pass-reset.css.map */
