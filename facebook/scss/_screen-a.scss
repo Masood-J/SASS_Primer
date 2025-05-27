@@ -1,11 +1,63 @@
-@media only screen and (max-width:1000px){
-.field{
-    padding-right: 500px;
+@media only screen and (max-width:1500px){
+    .main{
+    .header-one{
+        .email{
+            margin-left: 50vw;
+        }
+    }
+}}
+@media only screen and (max-width:1300px){
+    .main{
+    .header-one{
+        .email{
+            margin-left: 37vw;
+        }
+    }
+    .field{
+        .input-field{
+            margin-left:28vw ;
+        }
+    }
+}}
+@media only screen and (max-width:1050px){
+    .main{
+    .header-one{
+        .email{
+            margin-left: 27vw;
+        }
+    }
+}}
+@media only screen and (max-width:900px){
+    .main{
+    .header-one{
+        .email{
+            margin-left: 10vw;
+        }
+    }
+     .field{
+        .input-field{
+            margin-left:18vw ;
+        }
+    }
+}}
+@media only screen and (max-width:710px){
+    .main{
+    .header-one{
+        .email{
+            margin-left: 5vw;
+            padding:12px 0;
+        }
+        .password{
+            padding:12px 0;
+        }
+        .pass-reset{
+        font-size:xx-small;
+    }
+    }
+     .field{
+        .input-field{
+            margin-left:13vw ;
+        }
+    }
 }
-}
-@media only screen and (max-width: 700px) {
-  .field {
-    padding-right: 0;
-    padding-left: 0;
-  }
 }

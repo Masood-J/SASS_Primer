@@ -3,7 +3,10 @@ $secondary-color:#0866FF;
 $third-color:#42B72A ;
 $border-color:#b7c4b7 ;
 
-
+*{
+  margin: 0px;
+  padding: 0px;
+}
 .main{
     display: flex;
     flex-direction: row;
