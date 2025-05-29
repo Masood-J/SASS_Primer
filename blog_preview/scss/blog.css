@@ -1,0 +1,52 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+.main .blog {
+  margin-top: 10%;
+  width: 365px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+.main .blog img {
+  margin-left: 14px;
+  margin-top: 13px;
+  border-radius: 8px;
+}
+.main .blog .topic {
+  color: black;
+  background-color: hsl(47, 88%, 63%);
+  width: 75px;
+  border-radius: 8px;
+  margin-left: 5px;
+  text-align: center;
+}
+.main .blog .date {
+  margin-left: 5px;
+  color: hsl(0, 0%, 7%);
+}
+.main .blog .header1 {
+  margin-left: 5px;
+}
+.main .blog .topic2 {
+  margin-left: 5px;
+  font-size: 16px;
+  color: hsl(0, 0%, 42%);
+}
+.main .blog .footer1 {
+  display: flex;
+  flex-direction: row;
+}
+.main .blog .footer1 .avatar {
+  width: 30px;
+  height: 30px;
+}
+.main .blog .footer1 h5 {
+  margin-left: 8px;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: Figtree;
+}/*# sourceMappingURL=blog.css.map */
