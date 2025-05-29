@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: #FAFAFA;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.main .blog {
+  margin-top: 220px;
+  width: 340px;
+  border-radius: 15px;
+  background-color: #fff;
+  border-style: solid;
+  border-color: #D7D7D7;
+  padding: 20px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+.main .blog .design {
+  color: purple;
+}/*# sourceMappingURL=blog.css.map */
