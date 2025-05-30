@@ -1,0 +1,106 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: Outfit;
+  font-weight: 400;
+}
+
+.my-flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.my-flexbox .main-content {
+  background-color: #fff;
+  width: 650px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.my-flexbox .main-content .introduction {
+  margin-left: 30px;
+}
+.my-flexbox .main-content .introduction h1 {
+  font-family: "Young Serif";
+  font-weight: 50;
+}
+.my-flexbox .main-content .introduction p {
+  width: 94%;
+}
+.my-flexbox .main-content .introduction img {
+  width: 90%;
+  margin: 25px 0 0 15px;
+  border-radius: 10px;
+}
+.my-flexbox .main-content .preparation {
+  margin-left: 60px;
+}
+.my-flexbox .main-content .preparation h3 {
+  color: hsl(332, 51%, 32%);
+}
+.my-flexbox .main-content .preparation ul li {
+  margin-bottom: 8px;
+}
+.my-flexbox .main-content .preparation ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.my-flexbox .main-content .ingredients {
+  margin-left: 30px;
+}
+.my-flexbox .main-content .ingredients h2 {
+  font-family: "Young Serif";
+  font-weight: 50;
+  color: hsl(14, 45%, 36%);
+}
+.my-flexbox .main-content .ingredients ul li {
+  padding-left: 10px;
+  margin-bottom: 7px;
+}
+.my-flexbox .main-content .ingredients ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+.my-flexbox .main-content .instructions {
+  margin-left: 30px;
+  width: 90%;
+}
+.my-flexbox .main-content .instructions h2 {
+  font-family: "Young Serif";
+  font-weight: 50;
+  color: hsl(14, 45%, 36%);
+}
+.my-flexbox .main-content .instructions ol li {
+  margin-bottom: 10px;
+  padding-left: 8px;
+}
+.my-flexbox .main-content .instructions ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+.my-flexbox .main-content .nutrition {
+  margin-left: 30px;
+}
+.my-flexbox .main-content .nutrition h2 {
+  font-family: "Young Serif";
+  font-weight: 50;
+  color: hsl(14, 45%, 36%);
+}
+.my-flexbox .main-content .nutrition .list {
+  width: 80%;
+}
+.my-flexbox .main-content .nutrition .list tr {
+  box-shadow: 0px 0.1px black;
+}
+.my-flexbox .main-content .nutrition .list tr td {
+  padding: 10px 0;
+}
+.my-flexbox .main-content .nutrition .list tr .quantity {
+  color: hsl(14, 45%, 36%);
+  font-weight: 800;
+}
+.my-flexbox .main-content .nutrition .list .last-tr {
+  box-shadow: 0 0 black;
+}
+
+@media only screen and (max-width: 650px) {
+  .my-flexbox .main-content {
+    width: 450px;
+  }
+}/*# sourceMappingURL=recipe.css.map */
