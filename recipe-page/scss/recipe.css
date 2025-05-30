@@ -10,6 +10,7 @@ body {
   justify-content: center;
 }
 .my-flexbox .main-content {
+  margin-top: 80px;
   background-color: #fff;
   width: 650px;
   border-radius: 10px;
