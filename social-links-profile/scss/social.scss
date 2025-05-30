@@ -1,0 +1,92 @@
+$primary-color:hsl(0, 0%, 8%);
+$secondary-color:hsl(0, 0%, 12%);
+$ter-color:hsl(75, 94%, 57%);
+$button-color:hsl(0, 0%, 20%);
+$button-width:260px;
+
+@mixin button_style($button-width:290px,$bottom-space:15px){
+width:$button-width;
+margin-bottom: $bottom-space;
+padding:12px 0;
+background-color: $button-color;
+color: white;
+border-radius: 6px;
+border: none;
+font-weight: 600;
+&:hover{
+    background-color: #2b38d0;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+&:focus{
+    background-color: #b21010;
+    
+}
+}
+
+
+
+body{
+    background-color:$primary-color;
+    font-family: Inter;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+   
+
+.social-options{
+    background-color: $secondary-color;
+    width: 400px;
+    height:530px;
+    border-radius: 10px;
+    padding-top: 39px;
+    img{
+        width: 80px;
+        border-radius: 70px;
+        margin-left: 40%;
+    }
+    .name{
+        text-align: center;
+        color:#fff;
+        font-weight: 700;
+
+    }
+    .city{
+        text-align: center;
+        color:$ter-color;
+        font-weight: 600;
+    }
+    .bio{
+        text-align: center;
+        color: white;
+        font-size:medium;
+        font-weight: 250;
+    
+    }
+
+    .my-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .github{
+            @include button_style();
+        }
+        .front-end{
+@include button_style();
+        }
+        .twitter{
+@include button_style();
+        }
+        .linkedIn{
+@include button_style();
+        }
+        .insta{
+@include button_style($bottom-space:0px);
+        }
+    }
+    
+}}

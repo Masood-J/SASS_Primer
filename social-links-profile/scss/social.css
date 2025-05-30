@@ -1,0 +1,135 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: Inter;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 850px;
+}
+.main .social-options {
+  background-color: hsl(0, 0%, 12%);
+  width: 400px;
+  height: 530px;
+  border-radius: 10px;
+  padding-top: 39px;
+}
+.main .social-options img {
+  width: 80px;
+  border-radius: 70px;
+  margin-left: 40%;
+}
+.main .social-options .name {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+.main .social-options .city {
+  text-align: center;
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+.main .social-options .bio {
+  text-align: center;
+  color: white;
+  font-size: medium;
+  font-weight: 250;
+}
+.main .social-options .my-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .social-options .my-buttons .github {
+  width: 290px;
+  margin-bottom: 15px;
+  padding: 12px 0;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+}
+.main .social-options .my-buttons .github:hover {
+  background-color: #2b38d0;
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+.main .social-options .my-buttons .github:focus {
+  background-color: #b21010;
+}
+.main .social-options .my-buttons .front-end {
+  width: 290px;
+  margin-bottom: 15px;
+  padding: 12px 0;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+}
+.main .social-options .my-buttons .front-end:hover {
+  background-color: #2b38d0;
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+.main .social-options .my-buttons .front-end:focus {
+  background-color: #b21010;
+}
+.main .social-options .my-buttons .twitter {
+  width: 290px;
+  margin-bottom: 15px;
+  padding: 12px 0;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+}
+.main .social-options .my-buttons .twitter:hover {
+  background-color: #2b38d0;
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+.main .social-options .my-buttons .twitter:focus {
+  background-color: #b21010;
+}
+.main .social-options .my-buttons .linkedIn {
+  width: 290px;
+  margin-bottom: 15px;
+  padding: 12px 0;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+}
+.main .social-options .my-buttons .linkedIn:hover {
+  background-color: #2b38d0;
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+.main .social-options .my-buttons .linkedIn:focus {
+  background-color: #b21010;
+}
+.main .social-options .my-buttons .insta {
+  width: 290px;
+  margin-bottom: 0px;
+  padding: 12px 0;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+}
+.main .social-options .my-buttons .insta:hover {
+  background-color: #2b38d0;
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+.main .social-options .my-buttons .insta:focus {
+  background-color: #b21010;
+}/*# sourceMappingURL=social.css.map */
