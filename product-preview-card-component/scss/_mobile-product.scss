@@ -1,0 +1,20 @@
+@media only screen and (max-width:750px){
+    .main{
+.main-one{
+    flex-direction: column;
+    height: 599px;
+    width: 280px;
+    .img-div{
+        background-image: url("../images/image-product-mobile.jpg");
+border-radius: 10px;
+        padding: 85px 20px;
+        
+    }
+}
+    }
+body{
+    .attribution{
+        margin-top: 200px;
+    }
+}
+}

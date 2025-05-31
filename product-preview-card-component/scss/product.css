@@ -1,0 +1,96 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: Montserrat;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+.main .main-one {
+  display: flex;
+  border-radius: 10px;
+  background-color: white;
+  padding-right: 35px;
+  height: 450px;
+}
+.main .main-one .img-div {
+  background-image: url("../images/image-product-desktop.jpg");
+  width: 274px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main .main-one .product-info {
+  margin-left: 35px;
+  width: 215px;
+}
+.main .main-one .product-info h4 {
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: small;
+}
+.main .main-one .product-info h1 {
+  font-family: Fraunces;
+}
+.main .main-one .product-info p {
+  font-size: small;
+  font-weight: 300;
+  line-height: 19px;
+}
+.main .main-one .product-info .price {
+  display: flex;
+}
+.main .main-one .product-info .price h1 {
+  color: hsl(158, 36%, 37%);
+  font-family: Fraunces;
+}
+.main .main-one .product-info .price p {
+  margin-top: 32px;
+  margin-left: 20px;
+  text-decoration: line-through;
+}
+.main .main-one .product-info button {
+  width: 220px;
+  padding: 15px 2px 15px 2px;
+  border-radius: 6px;
+  border: 0 solid white;
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  font-family: Montserrat;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .main-one .product-info button:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+.main .main-one .product-info button:focus {
+  background-color: #989b89;
+}
+.main .main-one .product-info .icon {
+  width: 15px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+  .main .main-one {
+    flex-direction: column;
+    height: 599px;
+    width: 280px;
+  }
+  .main .main-one .img-div {
+    background-image: url("../images/image-product-mobile.jpg");
+    border-radius: 10px;
+    padding: 85px 20px;
+  }
+  body .attribution {
+    margin-top: 200px;
+  }
+}/*# sourceMappingURL=product.css.map */
