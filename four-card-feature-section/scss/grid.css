@@ -1,0 +1,186 @@
+.header h1, .header p {
+  text-align: center;
+}
+.header .topic {
+  margin-bottom: -25px;
+  font-weight: 200;
+}
+.header h1 {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+.header p {
+  text-align: center;
+  margin: 0 30%;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 5% 0 5%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.main .supervisor {
+  padding-left: 25px;
+  border-top: 5px solid hsl(180, 62%, 55%);
+  grid-row: 2/4;
+  border-radius: 10px;
+  height: 240px;
+  width: 26vw;
+  box-shadow: 0 9px 9px 0px hsl(212, 6%, 44%);
+}
+.main .supervisor:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+.main .supervisor h3 {
+  color: hsl(234, 12%, 34%);
+}
+.main .supervisor p {
+  width: 25vw;
+  font-weight: 300;
+}
+.main .supervisor .image-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.main .supervisor .image-container img {
+  margin-right: 20px;
+}
+.main .team {
+  padding-left: 25px;
+  border-top: 5px solid hsl(0, 78%, 62%);
+  grid-column: 2;
+  grid-row: span 2;
+  box-shadow: 2px 5px 9px 5px hsl(212, 6%, 44%);
+  border-radius: 10px;
+  width: 26vw;
+}
+.main .team:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+.main .team h3 {
+  color: hsl(234, 12%, 34%);
+}
+.main .team p {
+  width: 25vw;
+  font-weight: 300;
+}
+.main .team .image-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.main .team .image-container img {
+  margin-right: 20px;
+}
+.main .karma {
+  padding-left: 25px;
+  border-top: 5px solid hsl(34, 97%, 64%);
+  grid-column: 2;
+  grid-row: 3;
+  grid-row: span 2;
+  box-shadow: 2px 5px 9px 5px hsl(212, 6%, 44%);
+  border-radius: 10px;
+  width: 26vw;
+}
+.main .karma:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+.main .karma h3 {
+  color: hsl(234, 12%, 34%);
+}
+.main .karma p {
+  width: 25vw;
+  font-weight: 300;
+}
+.main .karma .image-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.main .karma .image-container img {
+  margin-right: 20px;
+}
+.main .calculator {
+  padding-left: 25px;
+  border-top: 5px solid hsl(212, 86%, 64%);
+  grid-row: 2/4;
+  grid-column: 3;
+  box-shadow: 2px 5px 9px 5px hsl(212, 6%, 44%);
+  border-radius: 10px;
+  width: 26vw;
+}
+.main .calculator:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+.main .calculator h3 {
+  color: hsl(234, 12%, 34%);
+}
+.main .calculator p {
+  width: 25vw;
+  font-weight: 300;
+}
+.main .calculator .image-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.main .calculator .image-container img {
+  margin-right: 20px;
+}
+
+body {
+  font-family: Poppins;
+}
+
+@media only screen and (max-width: 860px) {
+  .header p {
+    -webkit-text-size-adjust: 250px;
+       -moz-text-size-adjust: 250px;
+            text-size-adjust: 250px;
+    font-size: smaller;
+    width: 75%;
+    margin-left: 13vw;
+  }
+  .header h1 {
+    font-size: 155%;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60rem;
+  }
+  .main .supervisor {
+    width: 300px;
+    height: 200px;
+  }
+  .main .supervisor p {
+    width: 300px;
+  }
+  .main .team {
+    width: 300px;
+    height: 200px;
+  }
+  .main .team p {
+    width: 300px;
+  }
+  .main .karma {
+    width: 300px;
+    height: 200px;
+  }
+  .main .karma p {
+    width: 300px;
+  }
+  .main .calculator {
+    width: 300px;
+    height: 200px;
+  }
+  .main .calculator p {
+    width: 300px;
+  }
+}/*# sourceMappingURL=grid.css.map */

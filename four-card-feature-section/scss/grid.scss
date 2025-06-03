@@ -1,0 +1,142 @@
+$supervisor-color:hsl(180, 62%, 55%);
+$team-color:hsl(0, 78%, 62%);
+$karma-color:hsl(34, 97%, 64%);
+$calculator-color:hsl(212, 86%, 64%);
+.header{
+    h1,p{
+        text-align: center;
+    }
+    .topic{
+        margin-bottom: -25px;
+        font-weight: 200;
+    }
+    h1{
+        font-weight:600;
+        color:hsl(234, 12%, 34%)
+    }
+    p{
+        
+        text-align: center;
+        margin:0 30%;
+        margin-bottom: 25px;
+        font-weight: 400;
+    }
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:0 5% 0 5%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+gap: 20px;
+    .supervisor{
+        padding-left: 25px;
+        border-top: 5px solid $supervisor-color;
+        grid-row: 2/4;
+        border-radius: 10px;
+        height: 240px;
+        width:26vw;
+        box-shadow:0 9px 9px 0px hsl(212, 6%, 44%);
+        &:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s;
+        }
+        h3{
+            color:hsl(234, 12%, 34%)
+        }
+        p{
+            width: 25vw;
+            font-weight: 300;
+        }
+        .image-container{
+            display: flex;
+            justify-content: flex-end;
+        img{
+            margin-right: 20px;
+        }}
+    }
+    .team{
+        padding-left: 25px;
+        border-top: 5px solid $team-color;
+        grid-column: 2;
+        grid-row: span 2;
+        box-shadow: 2px 5px 9px 5px hsl(212, 6%, 44%);
+        border-radius: 10px;
+        width:26vw;
+         &:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s;
+        }
+        h3{
+            color:hsl(234, 12%, 34%)
+        }
+        p{
+            width: 25vw;
+            font-weight: 300;
+        }
+       .image-container{
+            display: flex;
+            justify-content: flex-end;
+        img{
+            margin-right: 20px;
+        }}
+    }
+    .karma{
+        padding-left: 25px;
+        border-top: 5px solid $karma-color;
+        grid-column: 2;
+        grid-row: 3;
+        grid-row: span 2;
+        box-shadow: 2px 5px 9px 5px hsl(212, 6%, 44%);
+        border-radius: 10px;
+        width:26vw;
+         &:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s;
+        }
+        h3{
+            color:hsl(234, 12%, 34%)
+        }
+        p{
+            width: 25vw;
+            font-weight: 300;
+        }
+       .image-container{
+            display: flex;
+            justify-content: flex-end;
+        img{
+            margin-right: 20px;
+        }}
+    }
+    .calculator{
+        padding-left: 25px;
+        border-top: 5px solid $calculator-color;
+        grid-row: 2/4;
+        grid-column: 3;
+        box-shadow: 2px 5px 9px 5px hsl(212, 6%, 44%);
+        border-radius: 10px;
+        width:26vw;
+         &:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s;
+        }
+        h3{
+            color:hsl(234, 12%, 34%)
+        }
+        p{
+            width: 25vw;
+            font-weight: 300;
+        }
+      .image-container{
+            display: flex;
+            justify-content: flex-end;
+        img{
+            margin-right: 20px;
+        }}
+        
+    }
+}
+
+body{
+    font-family: Poppins;
+}
+@import 'small-screen';
