@@ -1,0 +1,45 @@
+@mixin animation(){
+    &:hover{
+        transform: scale(1.0);
+        transition: transform 0.5s;
+        box-shadow: 20px 20px 10px hsl(0, 0%, 81%);
+    }
+}
+@media only screen and (max-width:850px){
+    .grid-container{
+        grid-template-areas: "daniel daniel jonathan jonathan"
+        "jeanette jeanette patrick patrick"
+        ". kira kira .";
+        .jeanette{
+            
+            grid-column: jeanette/jeanette;
+        }
+        
+    }
+}
+@media only screen and (max-width:550px){
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        .daniel{
+            @include animation();
+            h3{
+                width:83vw;
+            }
+        }
+        .jonathan{
+            padding-bottom: 45px;
+            @include animation();
+        }
+        .jeanette{
+            padding-bottom: 55px;
+            @include animation();
+        }
+        .kira{
+            @include animation();
+        }
+        .patrick{
+            @include animation();
+        }
+    }
+}

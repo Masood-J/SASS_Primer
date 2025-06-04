@@ -1,0 +1,274 @@
+body {
+  background-color: hsl(214, 17%, 92%);
+  font-family: "Barlow Semi Condensed";
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 25px;
+  justify-content: center;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  grid-template-areas: "daniel daniel jonathan kira" " jeanette patrick patrick kira";
+  max-width: 1200px;
+}
+.grid-container .daniel {
+  grid-area: daniel;
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position-x: 85%;
+  background-color: hsl(263, 55%, 52%);
+  border-radius: 10px;
+  padding-right: 20px;
+  color: #fff;
+  box-shadow: 20px 20px 10px hsl(0, 0%, 81%);
+}
+.grid-container .daniel:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  box-shadow: 0px 0px 0px hsl(0, 0%, 81%);
+}
+.grid-container .daniel h3 {
+  width: 31vw;
+  margin-left: 25px;
+}
+.grid-container .daniel p {
+  margin-left: 25px;
+  text-align: justify;
+}
+.grid-container .daniel .daniel-portfolio {
+  display: flex;
+  flex-direction: row;
+}
+.grid-container .daniel .daniel-portfolio img {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  align-self: center;
+  margin-left: 25px;
+}
+.grid-container .daniel .daniel-portfolio div {
+  justify-self: center;
+  margin-left: 9px;
+}
+.grid-container .daniel .daniel-portfolio div h4 {
+  margin-bottom: -18px;
+}
+.grid-container .daniel .daniel-portfolio div p {
+  margin-left: -1px;
+}
+.grid-container .jeanette {
+  padding-right: 9px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 20px 20px 10px hsl(0, 0%, 81%);
+}
+.grid-container .jeanette:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  box-shadow: 0px 0px 0px hsl(0, 0%, 81%);
+}
+.grid-container .jeanette p {
+  margin-left: 35px;
+}
+.grid-container .jeanette h3 {
+  margin-left: 25px;
+}
+.grid-container .jeanette .jeanette-portfolio {
+  display: flex;
+  flex-direction: row;
+}
+.grid-container .jeanette .jeanette-portfolio img {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  align-self: center;
+  margin-left: 25px;
+}
+.grid-container .jeanette .jeanette-portfolio div {
+  justify-self: center;
+  margin-left: 9px;
+}
+.grid-container .jeanette .jeanette-portfolio div h4 {
+  margin-bottom: -18px;
+}
+.grid-container .jeanette .jeanette-portfolio div p {
+  margin-left: -1px;
+}
+.grid-container .jonathan {
+  grid-area: jonathan;
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 10px;
+  padding-right: 25px;
+  color: #fff;
+  box-shadow: 20px 20px 10px hsl(0, 0%, 81%);
+}
+.grid-container .jonathan:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  box-shadow: 0px 0px 0px hsl(0, 0%, 81%);
+}
+.grid-container .jonathan p {
+  margin-left: 25px;
+}
+.grid-container .jonathan h3 {
+  margin-left: 25px;
+}
+.grid-container .jonathan .jonathan-portfolio {
+  display: flex;
+  flex-direction: row;
+}
+.grid-container .jonathan .jonathan-portfolio img {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  align-self: center;
+  margin-left: 25px;
+}
+.grid-container .jonathan .jonathan-portfolio div {
+  justify-self: center;
+  margin-left: 9px;
+}
+.grid-container .jonathan .jonathan-portfolio div h4 {
+  margin-bottom: -18px;
+}
+.grid-container .jonathan .jonathan-portfolio div p {
+  margin-left: -1px;
+}
+.grid-container .kira {
+  grid-area: kira;
+  padding-right: 19px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 20px 20px 10px hsl(0, 0%, 81%);
+}
+.grid-container .kira:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  box-shadow: 0px 0px 0px hsl(0, 0%, 81%);
+}
+.grid-container .kira p {
+  margin-left: 25px;
+}
+.grid-container .kira h3 {
+  margin-left: 25px;
+}
+.grid-container .kira .kira-portfolio {
+  display: flex;
+  flex-direction: row;
+}
+.grid-container .kira .kira-portfolio img {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  align-self: center;
+  margin-left: 25px;
+}
+.grid-container .kira .kira-portfolio div {
+  justify-self: center;
+  margin-left: 9px;
+}
+.grid-container .kira .kira-portfolio div h4 {
+  margin-bottom: -18px;
+}
+.grid-container .kira .kira-portfolio div p {
+  margin-left: -1px;
+}
+.grid-container .patrick {
+  grid-area: patrick;
+  background-color: hsl(219, 29%, 14%);
+  color: white;
+  padding-right: 17px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 10px hsl(0, 0%, 81%);
+}
+.grid-container .patrick:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  box-shadow: 0px 0px 0px hsl(0, 0%, 81%);
+}
+.grid-container .patrick p {
+  margin-left: 25px;
+}
+.grid-container .patrick h3 {
+  margin-left: 25px;
+}
+.grid-container .patrick .patrick-portfolio {
+  display: flex;
+  flex-direction: row;
+}
+.grid-container .patrick .patrick-portfolio img {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  align-self: center;
+  margin-left: 25px;
+}
+.grid-container .patrick .patrick-portfolio div {
+  justify-self: center;
+  margin-left: 9px;
+}
+.grid-container .patrick .patrick-portfolio div h4 {
+  margin-bottom: -18px;
+}
+.grid-container .patrick .patrick-portfolio div p {
+  margin-left: -1px;
+}
+
+@media only screen and (max-width: 850px) {
+  .grid-container {
+    grid-template-areas: "daniel daniel jonathan jonathan" "jeanette jeanette patrick patrick" ". kira kira .";
+  }
+  .grid-container .jeanette {
+    grid-column: jeanette/jeanette;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-container .daniel:hover {
+    transform: scale(1);
+    transition: transform 0.5s;
+    box-shadow: 20px 20px 10px hsl(0, 0%, 81%);
+  }
+  .grid-container .daniel h3 {
+    width: 83vw;
+  }
+  .grid-container .jonathan {
+    padding-bottom: 45px;
+  }
+  .grid-container .jonathan:hover {
+    transform: scale(1);
+    transition: transform 0.5s;
+    box-shadow: 20px 20px 10px hsl(0, 0%, 81%);
+  }
+  .grid-container .jeanette {
+    padding-bottom: 55px;
+  }
+  .grid-container .jeanette:hover {
+    transform: scale(1);
+    transition: transform 0.5s;
+    box-shadow: 20px 20px 10px hsl(0, 0%, 81%);
+  }
+  .grid-container .kira:hover {
+    transform: scale(1);
+    transition: transform 0.5s;
+    box-shadow: 20px 20px 10px hsl(0, 0%, 81%);
+  }
+  .grid-container .patrick:hover {
+    transform: scale(1);
+    transition: transform 0.5s;
+    box-shadow: 20px 20px 10px hsl(0, 0%, 81%);
+  }
+}/*# sourceMappingURL=grid.css.map */
